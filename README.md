@@ -14,3 +14,32 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+### 📌 About Me
+
+- 🎓 Studying **Mathematics & Computer Science**
+- 💡 Focused on **Data Science**, **Machine Learning**, and **Data Analytics**
+- 🟢 Interested in decentralized systems and sustainable tech solutions
+- 🌱 Currently building models in **Python & PyTorch**
+- 📬 Connect with me: [LinkedIn](https://linkedin.com/in/YOUR-LINKEDIN) | [Email](mailto:your.email@example.com)
+
+---
+
+### 🛠️ Tech Stack
+
+**Languages & Data Science**  
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)  
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+
+**Libraries & Frameworks**  
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/scikit_learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+---
+
+### 📊 GitHub Activity
+
+
