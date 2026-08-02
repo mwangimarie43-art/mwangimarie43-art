@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 -->
 ### 📌 About Me
 
-- 🎓 Studying **Mathematics & Computer Science**
+- 🎓 Studying **Mathematics & Computer Science at JomoKenyattauniversityofAgricultureandTechnology**
 - 💡 Focused on **Data Science**, **Machine Learning**, and **Data Analytics**
 - 🟢 Interested in decentralized systems and sustainable tech solutions
 - 🌱 Currently building models in **Python & PyTorch**
