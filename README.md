@@ -120,11 +120,8 @@ End-to-end analytics work I am proud to share. Each card links to the repo.
 ### Contribution snake
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mwangimarie43-art/mwangimarie43-art/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mwangimarie43-art/mwangimarie43-art/output/github-contribution-grid-snake.svg" />
-    <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/mwangimarie43-art/mwangimarie43-art/output/github-contribution-grid-snake.svg" />
-  </picture>
+  <img alt="GitHub contribution snake animation" src="https://github.com/mwangimarie43-art/mwangimarie43-art/raw/output/github-contribution-grid-snake.svg#gh-light-mode-only" />
+  <img alt="GitHub contribution snake animation" src="https://github.com/mwangimarie43-art/mwangimarie43-art/raw/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only" />
 </p>
 
 ### 3D contribution graph
