@@ -77,7 +77,7 @@ End-to-end analytics work I am proud to share. Each card links to the repo.
 
 **Languages**  
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
+[![MATLAB](https://shields.io)](https://mathworks.com)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 
 **Data science & ML**  
