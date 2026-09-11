@@ -100,7 +100,7 @@ End-to-end analytics work I am proud to share. Each card links to the repo.
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=mwangimarie43-art&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight" />
     <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=mwangimarie43-art&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=default" />
-    <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=mwangimarie43-art&show_icons=true&include_all_commits=true&count_private=true&hide_border=true" />
+    
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=mwangimarie43-art&layout=compact&hide_border=true&langs_count=6&theme=tokyonight" />
