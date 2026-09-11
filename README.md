@@ -105,7 +105,7 @@ End-to-end analytics work I am proud to share. Each card links to the repo.
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=mwangimarie43-art&layout=compact&hide_border=true&langs_count=6&theme=tokyonight" />
     <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=mwangimarie43-art&layout=compact&hide_border=true&langs_count=6&theme=default" />
-    <img alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mwangimarie43-art&layout=compact&hide_border=true&langs_count=6" />
+    
   </picture>
   <br />
   <picture>
