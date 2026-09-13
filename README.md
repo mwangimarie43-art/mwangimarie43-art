@@ -93,7 +93,8 @@ End-to-end analytics work I am proud to share. Each card links to the repo.
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
 
 **Badges**
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="848923af-d9d5-4af1-8b82-198d3376a418" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="848923af-d9d5-4af1-8b82-198d3376a418" data-share-badge-host="https://www.credly.com"></div>
+<script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
 ---
 
