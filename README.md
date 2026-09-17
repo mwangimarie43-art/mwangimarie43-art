@@ -138,7 +138,6 @@ End-to-end analytics work I am proud to share. Each card links to the repo.
   </picture>
 </p>
 
----
 
 <div align="center">
 
