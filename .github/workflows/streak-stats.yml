@@ -18,3 +18,12 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+
+      # Day boundary uses Africa/Nairobi so "today" matches Kenya local time.
+      - name: Generate light streak stats
+        uses: DenverCoder1/github-readme-streak-stats@v1
+        with:
+          path: profile/streak.svg
+          token: ${{ github.token }}
+          options: >-
+            user=${{ github.repository_owner }}&hide_border=true&theme=default&timezone=Africa/Nairobi&disable_animations=true
