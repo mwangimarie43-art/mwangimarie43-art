@@ -111,7 +111,7 @@ End-to-end analytics work I am proud to share. Each card links to the repo.
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./profile/streak-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./profile/streak.svg" />
-    <img alt="GitHub streak" src="https://streak-stats.demolab.com?user=mwangimarie43-art&hide_border=true" />
+    <img alt="GitHub streak" src="./profile/streak.svg" />
   </picture>
 </div>
 
