@@ -1,0 +1,53 @@
+name: Update streak stats
+
+on:
+  schedule:
+    # Refresh several times a day so the profile card stays current
+    # (remote streak-stats.demolab.com is cached up to 24h via GitHub Camo).
+    - cron: "0 */6 * * *"
+  push:
+    paths:
+      - ".github/workflows/streak-stats.yml"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # Day boundary uses Africa/Nairobi so "today" matches Kenya local time
+      # (JKUAT). Current streak = consecutive contribution days ending today
+      # or yesterday; a gap of more than one calendar day resets it.
+      #
+      # Optional repo secret STREAK_STATS_TOKEN: a classic PAT (read:user) for
+      # mwangimarie43-art so private-repo contributions (e.g. resight) are
+      # included. GITHUB_TOKEN cannot see other private repos' contribution days.
+      # Also turn on Profile > Contribution settings > Private contributions
+      # so the public contribution graph matches the card.
+      - name: Generate light streak stats
+        uses: DenverCoder1/github-readme-streak-stats@v1
+        with:
+          path: profile/streak.svg
+          token: ${{ secrets.STREAK_STATS_TOKEN || github.token }}
+          options: >-
+            user=${{ github.repository_owner }}&hide_border=true&theme=default&timezone=Africa/Nairobi&disable_animations=true
+
+      - name: Generate dark streak stats
+        uses: DenverCoder1/github-readme-streak-stats@v1
+        with:
+          path: profile/streak-dark.svg
+          token: ${{ secrets.STREAK_STATS_TOKEN || github.token }}
+          options: >-
+            user=${{ github.repository_owner }}&hide_border=true&theme=tokyonight&timezone=Africa/Nairobi&disable_animations=true
+
+      - name: Commit streak stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/streak.svg profile/streak-dark.svg
+          git commit --trailer "Co-authored-by: Cursor <cursoragent@cursor.com>" -m "Update streak stats" || exit 0
+          git push
