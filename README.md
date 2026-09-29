@@ -109,7 +109,7 @@ End-to-end analytics work I am proud to share. Each card links to the repo.
   </picture>
   <br />
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=mwangimarie43-art&hide_border=true&theme=tokyonight" />
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/streak-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=mwangimarie43-art&hide_border=true&theme=default" />
     <img alt="GitHub streak" src="https://streak-stats.demolab.com?user=mwangimarie43-art&hide_border=true" />
   </picture>
