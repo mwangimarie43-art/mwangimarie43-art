@@ -19,12 +19,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # Day boundary uses Africa/Nairobi so "today" matches Kenya local time.
+      # Day boundary uses Africa/Nairobi so "today" matches Kenya local time
+      # (JKUAT). Current streak = consecutive contribution days ending today
+      # or yesterday; a gap of more than one calendar day resets it.
+      #
+      # Optional repo secret STREAK_STATS_TOKEN: a classic PAT (read:user) for
+      # mwangimarie43-art so private-repo contributions (e.g. resight) are
+      # included. GITHUB_TOKEN cannot see other private repos' contribution days.
+      # Also turn on Profile > Contribution settings > Private contributions
+      # so the public contribution graph matches the card.
       - name: Generate light streak stats
         uses: DenverCoder1/github-readme-streak-stats@v1
         with:
           path: profile/streak.svg
-          token: ${{ github.token }}
+          token: ${{ secrets.STREAK_STATS_TOKEN || github.token }}
           options: >-
             user=${{ github.repository_owner }}&hide_border=true&theme=default&timezone=Africa/Nairobi&disable_animations=true
 
@@ -32,7 +40,7 @@ jobs:
         uses: DenverCoder1/github-readme-streak-stats@v1
         with:
           path: profile/streak-dark.svg
-          token: ${{ github.token }}
+          token: ${{ secrets.STREAK_STATS_TOKEN || github.token }}
           options: >-
             user=${{ github.repository_owner }}&hide_border=true&theme=tokyonight&timezone=Africa/Nairobi&disable_animations=true
 
