@@ -35,3 +35,11 @@ jobs:
           token: ${{ github.token }}
           options: >-
             user=${{ github.repository_owner }}&hide_border=true&theme=tokyonight&timezone=Africa/Nairobi&disable_animations=true
+
+      - name: Commit streak stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/streak.svg profile/streak-dark.svg
+          git commit --trailer "Co-authored-by: Cursor <cursoragent@cursor.com>" -m "Update streak stats" || exit 0
+          git push
