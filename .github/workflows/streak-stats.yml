@@ -27,3 +27,11 @@ jobs:
           token: ${{ github.token }}
           options: >-
             user=${{ github.repository_owner }}&hide_border=true&theme=default&timezone=Africa/Nairobi&disable_animations=true
+
+      - name: Generate dark streak stats
+        uses: DenverCoder1/github-readme-streak-stats@v1
+        with:
+          path: profile/streak-dark.svg
+          token: ${{ github.token }}
+          options: >-
+            user=${{ github.repository_owner }}&hide_border=true&theme=tokyonight&timezone=Africa/Nairobi&disable_animations=true
