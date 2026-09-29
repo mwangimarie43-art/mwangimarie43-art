@@ -5,6 +5,9 @@ on:
     # Refresh several times a day so the profile card stays current
     # (remote streak-stats.demolab.com is cached up to 24h via GitHub Camo).
     - cron: "0 */6 * * *"
+  push:
+    paths:
+      - ".github/workflows/streak-stats.yml"
   workflow_dispatch:
 
 jobs:
