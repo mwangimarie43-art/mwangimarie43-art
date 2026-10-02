@@ -7,7 +7,8 @@
 
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-Mary_Wangui-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mary-wangui-8237712b6/)
   [![Email](https://img.shields.io/badge/Email-mwangimarie43%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mwangimarie43@gmail.com)
-  [![GitHub](https://img.shields.io/badge/GitHub-mwangimarie43--art-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mwangimarie43-art)
+[![X](https://img.shields.io/badge/x.com/M_Mwangi57317?style=for-the-badge& logo=x&logoColor=white)](https://x.com/M_Mwangi57317)
+[![GitHub](https://img.shields.io/badge/GitHub-mwangimarie43--art-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mwangimarie43-art)
   [![Profile views](https://komarev.com/ghpvc/?username=mwangimarie43-art&label=Profile%20views&color=0e75b6&style=for-the-badge)](https://github.com/mwangimarie43-art)
 
 </div>
