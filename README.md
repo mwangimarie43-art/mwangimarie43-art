@@ -9,7 +9,7 @@
   [![Email](https://img.shields.io/badge/Email-mwangimarie43%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mwangimarie43@gmail.com)
 [![X](https://img.shields.io/badge/X-M__Mwangi57317-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/M_Mwangi57317)
 [![GitHub](https://img.shields.io/badge/GitHub-mwangimarie43--art-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mwangimarie43-art)
-  [![Profile views](https://komarev.com/ghpvc/?username=mwangimarie43-art&label=Profile%20views&color=0e75b6&style=for-the-badge)](https://github.com/mwangimarie43-art)
+
   <br />
   [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-mwangimarie43-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/mwangimarie43)
   [![Zindi](https://img.shields.io/badge/Zindi-Mwangimary-1C8C4A?style=for-the-badge)](https://zindi.world/users/Mwangimary)
