@@ -6,7 +6,6 @@
   Focused on turning messy data into clear decisions.
 
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-Mary_Wangui-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mary-wangui-8237712b6/)
-  [![X](https://img.shields.io/badge/X-M__Mwangi57317-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/M_Mwangi57317)
   [![Email](https://img.shields.io/badge/Email-mwangimarie43%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mwangimarie43@gmail.com)
 [![X](https://img.shields.io/badge/x.com/M_Mwangi57317?style=for-the-badge& logo=x&logoColor=white)](https://x.com/M_Mwangi57317)
 [![GitHub](https://img.shields.io/badge/GitHub-mwangimarie43--art-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mwangimarie43-art)
